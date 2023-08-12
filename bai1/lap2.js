@@ -57,8 +57,8 @@ arrays.map((e,i) => {
   const congMang = (arr, n) => {
     return arr.map((e) => e + n)
   }
-
-  console.log(congMang([1,2,3],3))
+  const tinhCOngmang  = congMang([1,2,3],3)
+  console.log(tinhCOngmang)
 
    
 
